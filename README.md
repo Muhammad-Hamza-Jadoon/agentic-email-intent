@@ -1,31 +1,31 @@
-# 📬 Agentic Email Processing System
+# Agentic Email Processing System
 
 This repository contains an intelligent, modular email processing system built using **LangChain**, **LangGraph**, and **OpenAI's GPT-4**. It automates triage and routing of incoming emails—especially those related to logistics—by detecting intent and dispatching them to specialized agents for appropriate action.
 
 ---
 
-## 🚀 Features
+## Features
 
-- **🧠 Intelligent Email Triage**  
+- **Intelligent Email Triage**  
   Automatically determines the primary intent of an email, such as:
   - Data extraction from attached documents
   - Structuring logistics-related text in email body
   - Informational or confirmation messages
 
-- **🤖 Specialized AI Agents**
+- **Specialized AI Agents**
   - **Document Processor Agent**: Extracts structured data from attached logistics documents (e.g., BOLs, shipping labels, invoices, receipts, item labels).
   - **Text Extractor Agent**: Extracts structured logistics data from the email body when no attachments are relevant.
   - **Acknowledgment Agent**: Handles informational emails, confirmations, or training submissions that require no extraction.
 
-- **🕹️ Supervisor-led Workflow**  
+- **Supervisor-led Workflow**  
   A central supervisor agent orchestrates the workflow by analyzing the email and assigning it to the correct specialist agent.
 
-- **🧩 Modular and Extensible Architecture**  
+- **Modular and Extensible Architecture**  
   Powered by LangGraph, enabling easy addition of new agents and tools.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The system uses a **Supervisor-Agent Pattern**:
 
@@ -63,9 +63,9 @@ The system uses a **Supervisor-Agent Pattern**:
 
 ---
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Python 3.9+
 - An [OpenAI API Key](https://platform.openai.com/)
@@ -73,7 +73,7 @@ The system uses a **Supervisor-Agent Pattern**:
 
 ---
 
-### 📥 Create and activate a virtual environment
+### Create and activate a virtual environment
 
 ```bash
 python -m venv venv
